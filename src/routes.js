@@ -7,6 +7,9 @@ const CarroController = require('./controllers/CarroControler')
 
 router.get('/carros', CarroController.buscarTodos);
 
+router.get('/carro/:codigo', CarroController.buscarUm);
+
+
 
 
 module.exports = router;
