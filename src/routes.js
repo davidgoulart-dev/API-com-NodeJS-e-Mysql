@@ -5,7 +5,7 @@ const CarroController = require('./controllers/CarroControler')
 
 
 
-router.get('/carros ')
+router.get('/carros', CarroController.buscarTodos);
 
 
 
