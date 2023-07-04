@@ -11,6 +11,11 @@ router.get('/carro/:codigo', CarroController.buscarUm);
 
 router.post('/carro', CarroController.inserir);
 
+router.put('/carro/:codigo', CarroController.alterar);
+
+
+
+
 
 
 
